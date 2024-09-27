@@ -1,0 +1,57 @@
+.aboutimage img
+{
+    border-radius: 25px ;
+    box-shadow: #ff9500e4 1px 1px 20px;
+}
+
+.myImage img
+{
+    box-shadow: 12px 8px 20px 0px #f0ac2c;
+    border-radius: 50% 10% 50% 10%;
+
+}
+.formInput ::placeholder{
+ color: aliceblue !important;
+}
+.resumeButton
+{
+    background: none;
+    border: none !important;
+}
+.bioText
+{
+    list-style: none;
+}
+.card Button
+{
+    background: none;
+    border: none !important; 
+}
+ 
+ .myImage img{
+    animation-name: slideleft;
+    animation-duration: 3s;
+ }
+ @keyframes slideleft 
+    {
+          from{transform: translatey(300%);}  
+    }
+
+.card
+{
+    
+
+    box-shadow: -7px 7px 0 0 #ffae00;
+}
+.custom-bg {
+    background-color: #353434  !important;
+    
+}
+.custom-cl
+{
+   background-color: #212529;
+}
+.custom-rounded {
+    border-radius: 30px  !important;
+}
+ 
